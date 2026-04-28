@@ -156,18 +156,24 @@
 
 // 4. indexOf(): Returns the first index at which a given element can be found in the array, or - 1 if it is not present.
 
+// let n = [11,22,33,44,55,66,99,0]
+
+// console.log(n.indexOf(0));
+
 
 // 5. join(): Joins all elements of an array into a string.
+
+let color = ["red", "black", "yellow", "green", "white"];
+
+let res = color.join("-");
+console.log(res);
+
+
+
 // 6. toString(): Returns a string representing the specified array and its elements.
 
-
-// 1..
-
-
-
-
-
-
+let result = color.toString();
+console.log(result);
 
 
 
